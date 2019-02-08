@@ -1,0 +1,985 @@
+#wrapper{font-family:tahoma;}
+.container{width:95%;
+margin:0 auto;
+}
+.container1{
+    width:50%;
+    margin:0 auto;
+}
+#subheader{
+    width:100%;
+    height:30px;
+    background:white;
+    color:black;
+    margin-top:-15px;
+}
+#subheader p{
+    float:left;
+    margin-top:7px;
+    
+}
+#subheader a1{
+    float:right;
+    line-height: 30px;
+    color:black;
+    text-decoration: none;
+    margin-left: 30px;
+}
+#subheader a1:hover{
+    font-size:20px;
+    transition:all .5s ease
+}
+
+/*logo styling*/
+#main-header{
+    width:100%;
+    height:100px;
+    background: white;
+    float:left;
+    color:#fff;
+    margin-top: -15px
+}
+#logo{
+    width:250px;
+    margin-top: 10px;
+    float:left;
+}
+#ist{
+    color:black;
+    font-size:45px;
+    font-weight:bold;
+    margin-left: 15px;
+    font-family: cursive;
+}
+#iist{
+    color:black;
+    font-size:45px;
+    font-weight:bold;
+    margin-left: -10px;
+    font-family:cursive;
+}
+/*searching area styling*/
+#search{
+    Color:black;
+    width:650px;
+    float:left;
+    padding:20px;
+    margin-left: 50px;
+}
+.search-area{
+    width:650px;
+    height:50px;
+    background: none;
+    border:1px solid black;
+    border-radius: 10px;
+    float:left;
+    font-size:17px;
+    padding-left:25px    
+}
+/*.search-area{
+  padding-left: 15px;
+  font-size:17px;
+  border: none;
+  border-radius: 10px;
+  float: left;
+  width: 80%;
+  height:50px;
+  background: #fff;
+}*/
+.search-btn{
+    width:100px;
+    height: 50px;
+    font-size:17px
+    border-radius:10px;
+    border:none;
+    color:#fff;
+    float:left;
+    border-radius:10px;
+    background: brown;
+    margin-left: -100px;
+    padding-left: :15px;
+}
+/*.search-btn {
+  float: left;
+    width: 20%;
+    height:50px;
+    padding: 10px;
+    background: Brown;
+    color: white;
+    border-radius:10px;
+    font-size: 17px;
+    border: none;
+    border-left: none;
+}*/
+
+/*this is user menu styling*/
+#user-menu{
+    width:200px;
+    float:right;
+    margin-top:20px;
+}
+/*this is for list styling*/
+#user-menu a1{
+    width:100px;
+    text-align: center;
+    list-style: none;
+    float:left;
+    line-height: 30px;
+    color:black;
+    text-decoration: none;
+    margin-left: -30px;
+    
+}
+#user-menu a1:hover{
+    font-size:20px;
+    transition:all .5s ease
+}
+
+/*navigation bar*/
+#navigation{
+    width:110%;
+    height:50px;
+    background: orange;
+    float:left;
+    margin-left: -10px;
+    /*box-shadow: 10px 14px 50px 2px orange*/
+    
+    
+}
+
+nav{
+    width:1280px;
+    margin:15px;
+    
+}
+nav a1{
+    margin-left: 35px;
+    color:white;
+    text-decoration: none;
+    margin-bottom: 50px;
+    font-weight:bold;
+    
+}
+
+nav a1:hover{
+    color:black;
+    transition:all .7s
+}
+
+/*SLIDER*/
+#slider{
+     width:50%;
+    height:100px;
+    max-width:100%;
+    float:left;
+    /*margin-top: 50px;*/
+    /*bottom: 40px;*/
+    position: relative;
+    left:350px;
+    top:50px
+}
+
+/*home page slider*/
+#slider1{
+    width:90%;
+    max-width:100%;
+    float: left;
+    /*margin-top: 50px;*/
+    /*bottom: 40px;*/
+    position: relative;
+    left:50px;
+    top:20px
+}
+
+.bx wrapper img{
+    margin-top:30px
+}
+/*category*/
+#heading-block{
+    width:100%;
+    height:auto;
+    float:left;
+    color:orange;
+    font-size:22px;
+    margin-top:-100px
+}
+#heading-block1{
+    width:80%;
+    height:auto;
+    float:left;
+    color:orange;
+    font-size:25px;
+    margin-top:-100px;
+    position: relative;
+    top:40px;
+    left:300px
+}
+/* name heading*/
+#heading-block2{
+    width:100%;
+    height:auto;
+    float:right;
+    color:orange;
+    font-size:22px;
+    margin-top:-100px;
+    position: relative;
+    right:-780px;
+    top: 30px
+}
+/* enclyopeida name */
+#heading-block3{
+    width:100%;
+    height:auto;
+    float:right;
+    color:orange;
+    font-size:22px;
+    margin-top:-100px;
+    position: relative;
+    right:-920px;
+    top: 50px
+}
+#heading-block4{
+    width:100%;
+    height:auto;
+    float:left;
+    color:orange;
+    font-size:22px;
+    margin-top:-100px;
+    position: relative;
+    right:-30px;
+    top: 50px
+}
+#heading-block4{
+    width:100%;
+    height:auto;
+    float:right;
+    color:orange;
+    font-size:22px;
+    margin-top:-100px;
+    position: relative;
+    right:-30px;
+    top: 50px
+}
+
+
+
+.btnspa{
+    border: none;
+    background-color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 290px;
+    left: -70px;
+    border-radius: 12px;
+
+}
+/*=====CATEGORY BOXES*/
+.catbox{
+    width:250px;
+    height:250px;
+    float:left;
+    overflow:hidden;
+    position:relative
+        
+}
+.catbox span{
+    width: 100%;
+    height:35px;
+    background:rgba(0,0,0,0.6);
+    line-height: 35px;
+    color: white;
+    display:block;
+    bottom:30px;
+    position: :absolute;
+    z-index: 999;
+    text-align: center
+}
+.catbox:hover span{
+    color:orange;
+}
+.catbox img{
+    max-width:100%;
+    transition:all .5s ease
+    
+}
+.catbox:hover img{
+    transform:scale(1.3,1.3);
+    transition:all .5s ease
+}
+
+/*===home boxes===*/
+.catbox1{
+    width:350px;
+    height:350px;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    margin-left: 50px;
+    margin-top: 10px;
+        
+}
+.catbox1 span{
+    width: 100%;
+    height:35px;
+    background:rgba(0,0,0,0.6);
+    line-height: 35px;
+    color: white;
+    display:block;
+    bottom:30px;
+    position: :absolute;
+    z-index: 999;
+    text-align: center
+}
+.catbox1:hover span{
+    color:orange;
+}
+.catbox1 img{
+    max-width:100%;
+    transition:all .5s ease;
+    height: 300px;
+    border-style: solid;
+    border-color: black
+    
+}
+.catbox1:hover img{
+    transform:scale(1.3,1.3);
+    transition:all .5s ease
+}
+
+.catbox2{
+    width:100%;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#form{
+    position:relative;
+    top:50px;
+    left:300px
+}
+.clearfix{
+    position:relative;
+    top:50px;
+    left:100px;
+    color:orange;
+}
+.sendbtn{
+   border: none;
+    background-color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 12px;
+}
+.sendbtn2{
+   border: none;
+    background-color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.cancelbtn{
+    border: none;
+    background-color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 12px;
+}
+/*home box arranging*/
+.homebox{
+    float: left;
+    position: relative;
+    top: 300px;
+    left: 20px
+}
+
+
+/*this is for products styling*/
+.prod-box{
+    width:235px;
+    height:300px;
+    overflow:hidden;
+    margin:0 18 30 0;
+    position:relative;
+    float:left;
+    border-style: solid;
+    border-color: black
+}
+.prod-box>img{
+    max-width: 100%
+}
+.prod-trans{
+    background-color: rgba(0,0,0,0.6);
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    position: absolute;
+    opacity:0;
+    transition:all .5s ease
+        
+}
+.prod-box:hover .prod-trans{
+    opacity: 1;
+    transition: all .5s ease
+    
+}
+.prod-feature{
+    text-align: center;
+    margin-top: -150px;
+    transition:all .5s ease
+}
+.prod-feature p{
+    color:orange;
+    font-family:verdana;
+}
+.prod-box:hover .prod-feature{
+    margin-top: 150px;
+    transition: all .5s ease
+}
+
+.prod-feature input{
+    width:150px;
+    height:35px;
+    font-size:17px
+}
+/*breed encylopedia*/
+.pr-box{
+    width:90%;
+    height:180px;
+    overflow:hidden;
+    margin:0 10 10 0;
+    position:relative;
+    float:left;
+    border-style: solid;
+    border-bottom-color: black
+}
+.pr-box>img{
+    max-width: 100%
+}
+.pr-trans{
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    position: absolute;
+    opacity:0;
+    transition:all .5s ease       
+}
+.pr-box:hover .pr-trans{
+    opacity: 1;
+    transition: all .5s ease
+    
+}
+
+.left5_1{
+    position: relative;
+    margin-top: -200px;
+    left: 300px;
+    transition:all .5s ease
+}
+
+.left5_1 p{
+    color:black;
+    font-family:verdana;
+    position:relative
+}
+.pr-box:hover .left5_1{
+    margin-top: 30px;
+    transition: all .5s ease
+}
+
+.left5_1 input{
+    width:150px;
+    height:35px;
+    font-size:17px
+}
+
+/* Dog ki Shaadi */
+.prod-feature1{
+    margin-top: -150px;
+    transition:all .5s ease;
+    text-align: center
+}
+.prod-feature1 input{
+    width:150px;
+    height:35px;
+    font-size:17px
+}
+.prod-box:hover .prod-feature1{
+    margin-top: 100px;
+    transition: all .5s ease
+}
+.prod-trans1{
+    background-color: rgba(0,0,0,0.4);
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    position: absolute;
+    opacity:0;
+    transition:all .5s ease
+        
+}
+.prod-box:hover .prod-trans1{
+    opacity: 1;
+    transition: all .5s ease
+}
+.shaadi{
+    border: none;
+    background-color: orange;
+    padding: 10px 20px;
+    font-size: 15px;
+    display:inline-block;
+    border-radius: 12px;
+}
+/*add my pet profile button*/
+.Profile{
+    border: none;
+    background-color: orange;
+    padding: 10px 20px;
+    font-size: 15px;
+    display:inline-block;
+    border-radius: 12px;
+    position: relative;
+    left:1050px;
+    top:-1px
+}
+
+/*footer*/
+#footer{
+    width:100%;
+    height:300px;
+    background: orange;
+    float:left
+}
+.column{
+    float:left;
+}
+/* spa partioning */
+.left {
+    width:25%;
+}
+.right{
+    width:50%;
+}
+/*adopt a pet*/
+.left1{
+    width:45%;
+}
+.right1{
+    width:55%;
+    text-align: center;
+    margin-top: -90px
+}
+/* Sell a pet */
+.left2{
+    width:40%;
+}
+.right2{
+    width: 50%;
+    border-color: lightgrey;
+    border-style: solid;
+    background-color: lightgoldenrodyellow;
+    margin-top: -30px
+}
+/* Login form partioning*/
+.left3{
+    width:40%;
+    height:50%;
+    background-color: beige;
+    margin-left: 150px;
+    text-align: center;
+    /*border-color: black;
+    border-right-color: beige
+    border-style: solid;*/
+}
+.right3{
+    width:40%;
+    height:60%;
+    background-color: aliceblue;
+    text-align: center;
+    /*border-color: black;
+    border-style: solid;*/
+    
+}
+/*name of dog*/
+.left4{
+    width: 60%;
+    height:40%
+}
+.left4_2{
+    width:60%;
+    height:40%;
+    position: relative;
+    left:-10px;
+    top:30px;
+}
+
+
+.right4{
+    width: 40%
+}
+/*encylopedia*/
+.left5{
+    width:70%
+}
+.right5{
+    width:30%;
+    float: right
+}
+
+.left5_1{
+    width:60%
+}
+/*shaadi inside*/
+.left6{
+    width:40%;
+}
+.right6{
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    border-color: lightgrey;
+    border-style: solid;
+    background-color: lightgoldenrodyellow;
+}
+/*shaadi profile add*/
+.left7{
+    width:30%;
+}
+.right7{
+    width: 50%;
+    border-color: lightgrey;
+    border-style: solid;
+    background-color: lightgoldenrodyellow;
+    margin-top: -30px;
+    margin-left: 250px
+}
+#name{
+    border-style: solid;
+    border-color: black;
+    padding: 2px;
+    width: 10%;
+    height:20px;
+    text-align: center
+}
+/*registration button*/
+.registerbtn{
+    border: none;
+    background-color: orange;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 12px;
+    
+}
+/*login button*/
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Cart Button*/
+.add{
+    border: none;
+    background-color: violet;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left:-10px;
+    bottom: 10px
+}
+.send1{
+    border: none;
+    background-color: violet;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left:250px;
+    bottom: 10px;
+    margin-left: 20px
+}
+/*dog ki shaadi addmypet*/
+.send2{
+    border: none;
+    background-color: violet;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left:-90px;
+    bottom: -60px;
+    margin-left: -100px
+}
+/* dog ki shaadi inner send button*/
+.send3{
+    border: none;
+    background-color: violet;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left:10px;
+    bottom: 10px;
+    margin-left: 20px
+}
+
+/*modal content for dog ki shaadi*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 60%
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content1 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: 60%
+}
+
+/* The Close Button */
+.close1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+body {
+	background-color: #F9F9F9;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+ul.products-wrp {
+	list-style: none;
+	padding: 0;
+	max-width: 650px;
+	margin-left: auto;
+	margin-right: auto;  
+	color: green;  
+	text-align: center;
+}
+ul.products-wrp li{
+	display: inline-block;
+	border: 1px solid #ECECEC;
+	margin: 5px;
+	background: #fff;
+	text-align: center;
+}
+ul.products-wrp li h4{
+	margin: 0;
+	padding: 15px 5px 5px 5px;
+	text-align: center;
+	border-bottom: 1px solid #FAFAFA;
+}
+ul.products-wrp li .item-box{
+	border: 1px solid #EAEAEA;
+	background: #F9F9F9;
+	margin: 5px;
+	padding: 5px;
+	text-align: left;
+}
+ul.products-wrp li .item-box div{
+	margin-bottom:5px;
+}
+ul.products-wrp li .item-box button{
+	margin-left: 5px;
+	background: #FA1C5F;
+	border: none;
+	padding: 3px 8px 3px 8px;
+	color: #fff;
+}
+ul.products-wrp li .item-box button[disabled=disabled]{
+	background: blue;
+}
+
+.cart-box {
+	display: block;
+	width: 100px;
+	background: rgba(219, 0, 33, 1) url(../images/cart-icon.png) no-repeat 100px 5px;
+	padding: 4px 8px 4px 8px;
+	border-radius: 30px;
+	color: #fff;
+	font-family: Arial;
+	font-size: 16px;
+	text-decoration: none;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.32);
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bold;
+}
+.cart-box:hover{
+	background: black url(../images/cart-icon.png) no-repeat 100px 5px;
+}
+.shopping-cart-box{ 
+	position: absolute;
+    left:0px;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	max-width: 450px;
+	color: blue;
+	background: green;
+	border-radius: 4px;
+	padding: 10px;
+	font: small Verdana, Geneva, sans-serif;  
+	margin-top: 10px;
+	display:none;
+}
+.shopping-cart-box a{
+	color: green;
+	text-decoration:none;
+}
+.shopping-cart-box:after {
+	content: '';
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -8px;
+	width: 0; height: 0;
+	border-bottom: 8px solid rgba(255, 0, 97, 1);
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
+}
+.shopping-cart-box ul.cart-products-loaded{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.shopping-cart-box .close-shopping-cart-box{
+  float: right;
+}
+#shopping-cart-results ul.cart-products-loaded li{
+	background: blue;
+	margin-bottom: 1px;
+	padding: 6px 4px 6px 10px;
+}
+.shopping-cart-box .remove-item{
+	float:right;
+	text-decoration:none;
+}
+.shopping-cart-box .cart-products-total{
+	font-weight: bold;
+	text-align: right;
+	padding: 5px 0px 0px 5px;
+}
+.shopping-cart-box h3{
+	margin: 0;
+	padding: 0px 0px 5px 0px;
+}
+
+ul.view-cart {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  padding: 15px 15px 15px 25px;
+  list-style: none;
+}
+
+ul.view-cart {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  padding: 15px 15px 15px 25px;
+  list-style: none;
+  border: 1px solid #ECECEC;
+  border-radius: 4px;
+}
+ul.view-cart li span{
+    float: right;
+}
+ul.view-cart li.view-cart-total{
+  border-top: 1px solid green;
+  padding-top: 5px;
+  margin-top: 5px;
+  text-align: right;
+}
+hr{
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}

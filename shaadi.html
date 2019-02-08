@@ -1,0 +1,565 @@
+<html>
+<head>
+    <title>::Doggie Woggie::</title>
+    <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+<link href="css/style5.css" rel="stylesheet" type="text/css">
+    
+    </head>
+    <body>
+        <div id="wrapper">
+        <div id="header">
+            <div id="subheader">
+        <div class="container">
+                <p>Dog shopping site</p>
+            <a href="login.html">Login</a><a href="login.html">Register</a><a href="#">CheckOut</a>
+                </div>
+                </div>
+            <!--Main header-->
+            <div id="main-header">
+                <!---Logo-->
+            <div id="logo">
+                <span id="ist">DoggieWoggie</span><span id = "iist"></span>
+                </div> 
+                
+                <!--Search Area-->
+                <div id="search">
+                <form class="Search" action="">
+                    <input class="search-area" type ="text" name="text" placeholder="Search For Products">
+                    <input class="search-btn" type="submit" name="submit" value="SEARCH">
+                    <!--<button type="submit"><i class="fa fa-search"></i></button>-->
+                    
+                    </form>
+                </div>
+                <!--User-menu-->
+                <div id="user-menu">
+                <a href="#">Cart : 0 Item(s) - Rs.0.00.00</a>   
+                
+                </div>
+            </div>
+            </div>
+            <!--Navigation-->
+            <div id="navigation">
+            <nav>
+                <a href="home.html">Home</a>
+                <a href='adopt.html'>Adopt a pet</a>     
+                <a href="sell.html">Sell a Pet</a>
+                <a href="spa1.html">Pet Spa</a>
+                <a href="shaadi.html">Dog Ki Shaadi</a>
+                <a href="encylopedia.html">Breed Encylopedia</a>
+                <a href="name.html">Name Your Dog</a>
+                <a href="about.html">About</a>
+                
+                </nav>
+            
+            
+            </div>
+            <!---Home slider--->
+            <div id="slider">
+                
+            </div>
+            <div class="container">
+            <div id="heading-block">
+                <img style="margin-left: -33px" src="images/shaadi11.jpg" alt="shaadi">
+                <h3>Dog Ki Shaadi</h3> 
+                <form action="shaadi.php" method="post">
+                
+                <button id="myBtn1" type="submit" value="Add My Pet profile" name="ADD MY PET" class="Profile" >Add My Pet profile</button>
+                    
+                  </form>
+                 
+                </div>
+               
+                <!-- The Modal -->
+            <div id="myModal1" class="modal1">
+
+            <!-- Modal content -->
+            <div class="modal-content1">
+            <span class="close1">&times;</span>
+                <div class="row">
+                    <div id="heading-block5"> 
+                   <h2 style="color: orange">My Pet Profile</h2>
+                </div> 
+            <div class="column left7">
+                </div>
+            <div class="column right7">
+                <form name="myForm" onsubmit="return validateForm()" action="addmypet.php">
+                 
+                <label style="margin-left: 20px;margin-top: -50px">Name:</label>
+                <input style="width: 30%;height:10%; text-align: center;margin-left: 38px;margin-top: 20px" type="text" name="name" required><br> 
+                    
+                <label style="margin-left: 20px;">Category:</label>
+                <input style="width: 30%;height:10%; text-align: center;margin-left: 18px;margin-top: 5px" type="text" name="cat" required><br><br>
+                    
+                <input style="margin-left: 20px;margin-top: 5px" type="radio" name = "KCI" value="KCI" checked>KCI REGISTERED
+                 <input style="margin-top: -100px" type="radio" name = "KCI" value="NON KCI" > NON KCI REGISTERED<br>    
+                 
+                <br><label style="margin-left: 20px;">Color:</label>
+                <select style="width: 20%;height: 5%" name="color">
+                 <option value="black">Black</option>
+                 <option value="white">White</option>
+                  </select >
+        
+                <label style="margin-left: 25px">Sex:</label>
+                 <input style="margin: 5px;" type="radio" name = "gender" value="male" checked>Male
+                 <input style="margin: 5px;" type="radio" name = "gender" value="female" > Female<br><br>
+                    
+                <label style="margin-left: 20px;">Age in Years:</label>
+                <input style="width: 10%;height:5%; text-align: center" type="text" name="age" required ><br>    
+                    
+                <label style="margin-left: 20px;">Upload Image:</label>
+                <input type = "file" name="pic" accept="image/*" required> 
+                        
+                
+                    <button onclick="validateForm()" class="send2">Send</button>
+                        
+                 </form> 
+                
+                </div>
+            </div>
+            
+    
+            </div>
+               </div>
+            </div>
+            <div class="prod-container">
+                   <!--First product-->
+                <div class="prod-box">
+                   <img src="images/prodd1.jpg" alt="dog1">
+                    <div class="prod-trans1">
+                        <div class="prod-feature1">
+                        <form action="">    
+                        <input style="background: none;text-align: center;border: none;font-weight:bolder;color: orange"type = "text" value = "Name"><br>    
+                        
+                        <label style="color: orange;font-weight: bold;margin-left: 1.5px">Category:</label>
+                        <input style="background: none;border: none;color: whitesmoke;" type = "text" value="Category"><br>
+                        
+                        <label style="margin-left: -2.315px;color: orange;font-weight: bolder">Sex:</label>
+                        <input style="width: 15%;height:5%; text-align: center;background: none;border: none;color: whitesmoke" type="text" value="Sex" required>  
+                
+                        <label style="margin-left: 10px;color: orange;font-weight: bold">Color:</label>
+                        <input style="width: 18%;height:5%; text-align: center;background: none;border: none;color:whitesmoke" type="text" value="color" required><br>    
+                        
+                        <label style="color: orange;font-weight: bolder;">Age:</label>
+                        <input style="background: none;border: none;color: whitesmoke" type = "text" value="age"><br>            
+                        
+                        <input id="myBtn" type="button" value="Interested" class="shaadi" > 
+                        
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+                        
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="row">
+                        <div class="column left6">
+                            <div class="prod-box">
+                   <img src="images/prodd2.jpg" alt="dog1">
+                    <div class="prod-trans1">
+                        <div class="prod-feature1">
+                        <form action="">    
+                        <input style="background: none;text-align: center;border: none;font-weight:bolder;color: orange"type = "text" value = "Name"><br>    
+                        
+                        <label style="color: orange;font-weight: bold;margin-left: 1.5px">Category:</label>
+                        <input style="background: none;border: none;color: whitesmoke;" type = "text" value="Category"><br>
+                        
+                        <label style="margin-left: -2.315px;color: orange;font-weight: bolder">Sex:</label>
+                        <input style="width: 15%;height:5%; text-align: center;background: none;border: none;color: whitesmoke" type="text" value="Sex" required>  
+                
+                        <label style="margin-left: 10px;color: orange;font-weight: bold">Color:</label>
+                        <input style="width: 18%;height:5%; text-align: center;background: none;border: none;color:whitesmoke" type="text" value="color" required><br>    
+                        
+                        <label style="color: orange;font-weight: bolder;">Age:</label>
+                        <input style="background: none;border: none;color: whitesmoke" type = "text" value="age"><br>            
+                        </form>    
+                        </div>
+                    </div>
+
+                    
+                   </div>
+                       
+                        </div>
+                        <div class="column right6">
+                            
+                         <div id="heading-block5"> 
+                          <h4>Yes,I'm interested</h4>
+                         </div>    
+                        <form name="myForm" onsubmit="return validateForm()" action="">
+                        <label style="margin-left: -20px;"><b>Enter Name:</b></label>
+                <input style="width: 30%;height:10%; text-align: center;margin-left: 20px" type="text" placeholder="Enter Name" name="name" required>
+                        
+                       <br><br><label style="margin-left: -20px;"><b>Email:</b></label>
+                <input style="width: 30%;height:10%; text-align: center;margin-left: 70px" type="email" placeholder="Enter Email" name="email" required>
+                            
+                        <br><br><label style="margin-left: -20px;"><b>Mobile:</b></label>
+                <input style="width: 30%;height:10%; text-align: center;margin-left: 55px" type="number" placeholder="Enter Mobile" name="mobile" required>    
+                            
+                            <br><br>
+                            <button onclick="validateForm()" class="send3">Send</button>
+                            </form>
+                            </div>
+                        </div>    
+                          </div>
+                             </div>
+                        </form>    
+                       
+                   
+                   </div>
+                    </div>
+                </div>
+                <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>  
+                   <!--Second product-->
+               <div class="prod-box">
+                   <img src="images/prodd3.jpg" alt="dog1">
+                    <div class="prod-trans1">
+                        <div class="prod-feature1">
+                        <form action="">    
+                        <input style="background: none;text-align: center;border: none;font-weight:bolder;color: orange"type = "text" value = "Name"><br>    
+                        
+                        <label style="color: orange;font-weight: bold;margin-left: 1.5px">Category:</label>
+                        <input style="background: none;border: none;color: whitesmoke;" type = "text" value="Category"><br>
+                        
+                        <label style="margin-left: -2.315px;color: orange;font-weight: bolder">Sex:</label>
+                        <input style="width: 15%;height:5%; text-align: center;background: none;border: none;color: whitesmoke" type="text" value="Sex" required>  
+                
+                        <label style="margin-left: 10px;color: orange;font-weight: bold">Color:</label>
+                        <input style="width: 18%;height:5%; text-align: center;background: none;border: none;color:whitesmoke" type="text" value="color" required><br>    
+                        
+                        <label style="color: orange;font-weight: bolder;">Age:</label>
+                        <input style="background: none;border: none;color: whitesmoke" type = "text" value="age"><br>            
+                        
+                        <input id="myBtn2" type="button" value="Interested" class="shaadi" > 
+                        
+                        <!-- The Modal -->
+                        <div id="myModal2" class="modal">
+                        
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="row">
+                        <div class="column left6">
+                            <div class="prod-box">
+                   <img src="images/prodd3.jpg" alt="dog1">
+                    <div class="prod-trans1">
+                        <div class="prod-feature1">
+                        <form action="">    
+                        <input style="background: none;text-align: center;border: none;font-weight:bolder;color: orange"type = "text" value = "Name"><br>    
+                        
+                        <label style="color: orange;font-weight: bold;margin-left: 1.5px">Category:</label>
+                        <input style="background: none;border: none;color: whitesmoke;" type = "text" value="Category"><br>
+                        
+                        <label style="margin-left: -2.315px;color: orange;font-weight: bolder">Sex:</label>
+                        <input style="width: 15%;height:5%; text-align: center;background: none;border: none;color: whitesmoke" type="text" value="Sex" required>  
+                
+                        <label style="margin-left: 10px;color: orange;font-weight: bold">Color:</label>
+                        <input style="width: 18%;height:5%; text-align: center;background: none;border: none;color:whitesmoke" type="text" value="color" required><br>    
+                        
+                        <label style="color: orange;font-weight: bolder;">Age:</label>
+                        <input style="background: none;border: none;color: whitesmoke" type = "text" value="age"><br>            
+                        </form>    
+                        </div>
+                    </div>
+
+                    
+                   </div>
+                       
+                        </div>
+                        <div class="column right6">
+                            
+                         <div id="heading-block5"> 
+                          <h4>Yes,I'm interested</h4>
+                         </div>    
+                        <form name="myForm" onsubmit="return validateForm()" action="">
+                        <label style="margin-left: -20px;"><b>Enter Name:</b></label>
+                <input style="width: 30%;height:10%; text-align: center;margin-left: 20px" type="text" placeholder="Enter Name" name="name" required>
+                        
+                       <br><br><label style="margin-left: -20px;"><b>Email:</b></label>
+                <input style="width: 30%;height:10%; text-align: center;margin-left: 70px" type="email" placeholder="Enter Email" name="email" required>
+                            
+                        <br><br><label style="margin-left: -20px;"><b>Mobile:</b></label>
+                <input style="width: 30%;height:10%; text-align: center;margin-left: 55px" type="number" placeholder="Enter Mobile" name="mobile" required>    
+                            
+                            <br><br>
+                            <button onclick="validateForm()" class="send3">Send</button>
+                            </form>
+                            </div>
+                        </div>    
+                          </div>
+                             </div>
+                        </form>    
+                       
+                   
+                   </div>
+                    </div>
+                </div>
+                <script>
+// Get the modal
+var modal2 = document.getElementById('myModal2');
+
+// Get the button that opens the modal
+var btn2 = document.getElementById("myBtn2");
+
+// Get the <span> element that closes the modal
+var span2 = document.getElementsByClassName("close2")[0];
+
+// When the user clicks the button, open the modal 
+btn2.onclick = function() {
+    modal2.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function() {
+    modal2.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+}
+</script>  
+
+                   <!--Third product-->
+                <div class="prod-box">
+                   <img src="images/prodd2.jpg" alt="dog1">
+                    <div class="prod-trans1">
+                        <div class="prod-feature1">
+                        <form action="">    
+                        <input style="background: none;text-align: center;border: none;font-weight:bolder;color: orange"type = "text" value = "Name"><br>    
+                        
+                        <label style="color: orange;font-weight: bold;margin-left: 1.5px">Category:</label>
+                        <input style="background: none;border: none;color: whitesmoke;" type = "text" value="Category"><br>
+                        
+                        <label style="margin-left: -2.315px;color: orange;font-weight: bolder">Sex:</label>
+                        <input style="width: 15%;height:5%; text-align: center;background: none;border: none;color: whitesmoke" type="text" value="Sex" required>  
+                
+                        <label style="margin-left: 10px;color: orange;font-weight: bold">Color:</label>
+                        <input style="width: 18%;height:5%; text-align: center;background: none;border: none;color:whitesmoke" type="text" value="color" required><br>    
+                        
+                        <label style="color: orange;font-weight: bolder;">Age:</label>
+                        <input style="background: none;border: none;color: whitesmoke" type = "text" value="age"><br>            
+                        
+                        <input type="button" value="Interested" class="shaadi" > 
+                        </form>    
+                        </div>
+                    </div>
+                   </div>
+                
+                   <!--Fourth product-->
+                <div class="prod-box">
+                   <img src="images/prodd2.jpg" alt="dog1">
+                    <div class="prod-trans1">
+                        <div class="prod-feature1">
+                        <form action="">    
+                        <input style="background: none;text-align: center;border: none;font-weight:bolder;color: orange"type = "text" value = "Name"><br>    
+                        
+                        <label style="color: orange;font-weight: bold;margin-left: 1.5px">Category:</label>
+                        <input style="background: none;border: none;color: whitesmoke;" type = "text" value="Category"><br>
+                        
+                        <label style="margin-left: -2.315px;color: orange;font-weight: bolder">Sex:</label>
+                        <input style="width: 15%;height:5%; text-align: center;background: none;border: none;color: whitesmoke" type="text" value="Sex" required>  
+                
+                        <label style="margin-left: 10px;color: orange;font-weight: bold">Color:</label>
+                        <input style="width: 18%;height:5%; text-align: center;background: none;border: none;color:whitesmoke" type="text" value="color" required><br>    
+                        
+                        <label style="color: orange;font-weight: bolder;">Age:</label>
+                        <input style="background: none;border: none;color: whitesmoke" type = "text" value="age"><br>            
+                        
+                        <input type="button" value="Interested" class="shaadi" > 
+                        </form>    
+                        </div>
+                    </div>
+
+                    
+                   </div>
+                   <!--Fifth product-->
+                <div class="prod-box">
+                   <img src="images/prodd2.jpg" alt="dog1">
+                    <div class="prod-trans1">
+                        <div class="prod-feature1">
+                        <form action="">    
+                        <input style="background: none;text-align: center;border: none;font-weight:bolder;color: orange"type = "text" value = "Name"><br>    
+                        
+                        <label style="color: orange;font-weight: bold;margin-left: 1.5px">Category:</label>
+                        <input style="background: none;border: none;color: whitesmoke;" type = "text" value="Category"><br>
+                        
+                        <label style="margin-left: -2.315px;color: orange;font-weight: bolder">Sex:</label>
+                        <input style="width: 15%;height:5%; text-align: center;background: none;border: none;color: whitesmoke" type="text" value="Sex" required>  
+                
+                        <label style="margin-left: 10px;color: orange;font-weight: bold">Color:</label>
+                        <input style="width: 18%;height:5%; text-align: center;background: none;border: none;color:whitesmoke" type="text" value="color" required><br>    
+                        
+                        <label style="color: orange;font-weight: bolder;">Age:</label>
+                        <input style="background: none;border: none;color: whitesmoke" type = "text" value="age"><br>            
+                        
+                        <input type="button" value="Interested" class="shaadi" > 
+                        </form>    
+                        </div>
+                    </div>
+
+                    
+                   </div>
+                <!---Sixth Product-->
+                <div class="prod-box">
+                   <img src="images/prodd2.jpg" alt="dog1">
+                    <div class="prod-trans1">
+                        <div class="prod-feature1">
+                        <form action="">    
+                        <input style="background: none;text-align: center;border: none;font-weight:bolder;color: orange"type = "text" value = "Name"><br>    
+                        
+                        <label style="color: orange;font-weight: bold;margin-left: 1.5px">Category:</label>
+                        <input style="background: none;border: none;color: whitesmoke;" type = "text" value="Category"><br>
+                        
+                        <label style="margin-left: -2.315px;color: orange;font-weight: bolder">Sex:</label>
+                        <input style="width: 15%;height:5%; text-align: center;background: none;border: none;color: whitesmoke" type="text" value="Sex" required>  
+                
+                        <label style="margin-left: 10px;color: orange;font-weight: bold">Color:</label>
+                        <input style="width: 18%;height:5%; text-align: center;background: none;border: none;color:whitesmoke" type="text" value="color" required><br>    
+                        
+                        <label style="color: orange;font-weight: bolder;">Age:</label>
+                        <input style="background: none;border: none;color: whitesmoke" type = "text" value="age"><br>            
+                        
+                        <input type="button" value="Interested" class="shaadi" > 
+                        </form>    
+                        </div>
+                    </div>
+
+                    
+                   </div>
+                
+                </div>
+
+            
+            
+        </div>
+<script
+  src="http://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/my.js"></script> 
+        
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>  
+<!--Add pet profile-->
+<script>
+// Get the modal
+ var modal1 = document.getElementById('myModal1');
+
+// Get the button that opens the modal
+var btn1 = document.getElementById("myBtn1");
+
+// Get the <span> element that closes the modal
+var span1 = document.getElementsByClassName("close1")[0];
+
+// When the user clicks on the button, open the modal 
+btn1.onclick = function() {
+    modal1.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() {
+    modal1.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+    }
+}
+</script>        
+        
+        <script >
+                        function validateForm() {
+                        var z = document.forms["myForm"]["name"].value;
+                        var a = document.forms["myForm"]["email"].value;    
+                        var b = document.forms["myForm"]["mobile"].value;
+                        var c = document.forms["myform"]["gender"].value;
+                        var d = document.forms["myform"]["KCI"].value;
+                        var e = document.forms["myform"]["cat"].value; 
+                            
+                            
+                        
+                            
+                        if (z == "") {
+                        alert("Name must be filled out");
+                        return false;
+                        }
+                        
+                        if (a == "") {
+                        alert("Email must be filled out");
+                        return false;
+                        }
+                        
+                        if (b == "") {
+                        alert("Number must be filled out");
+                        return false;
+                        }
+                         
+                        if (e == "") {
+                        alert("Number must be filled out");
+                        return false;
+                        }    
+                            
+                        alert("Congratulations!!! Your Message is sent");
+                        return true;
+                        }    
+                                 
+                         </script>  
+        
+            
+    </body>
+  
+</html>

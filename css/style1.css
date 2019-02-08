@@ -1,0 +1,640 @@
+#wrapper{font-family:tahoma;}
+.container{width:95%;
+margin:0 auto;
+}
+.container1{
+    width:50%;
+    margin:0 auto;
+}
+#subheader{
+    width:100%;
+    height:30px;
+    background:white;
+    color:black;
+    margin-top:-15px;
+}
+#subheader p{
+    float:left;
+    margin-top:7px;
+    
+}
+#subheader a{
+    float:right;
+    line-height: 30px;
+    color:black;
+    text-decoration: none;
+    margin-left: 30px;
+}
+#subheader a:hover{
+    font-size:20px;
+    transition:all .5s ease
+}
+
+/*logo styling*/
+#main-header{
+    width:100%;
+    height:100px;
+    background: white;
+    float:left;
+    color:#fff;
+    margin-top: -15px
+}
+#logo{
+    width:250px;
+    margin-top: 10px;
+    float:left;
+}
+#ist{
+    color:black;
+    font-size:45px;
+    font-weight:bold;
+    margin-left: 15px;
+    font-family: cursive;
+}
+#iist{
+    color:black;
+    font-size:45px;
+    font-weight:bold;
+    margin-left: -10px;
+    font-family:cursive;
+}
+/*searching area styling*/
+#search{
+    Color:black;
+    width:650px;
+    float:left;
+    padding:20px;
+    margin-left: 50px;
+}
+.search-area{
+    width:650px;
+    height:50px;
+    background:none;
+    border:1px solid black;
+    border-radius: 10px;
+    float:left;
+    font-size:17px;
+    padding-left:25px    
+}
+/*.search-area{
+  padding-left: 15px;
+  font-size:17px;
+  border: none;
+  border-radius: 10px;
+  float: left;
+  width: 80%;
+  height:50px;
+  background: #fff;
+}*/
+.search-btn{
+    width:100px;
+    height: 50px;
+    font-size:17px
+    border-radius:10px;
+    border:none;
+    color:#fff;
+    float:left;
+    border-radius:10px;
+    background: brown;
+    margin-left: -100px;
+    padding-left: :15px;
+}
+/*.search-btn {
+  float: left;
+    width: 20%;
+    height:50px;
+    padding: 10px;
+    background: Brown;
+    color: white;
+    border-radius:10px;
+    font-size: 17px;
+    border: none;
+    border-left: none;
+}*/
+
+/*this is user menu styling*/
+#user-menu{
+    width:200px;
+    float:right;
+    margin-top:20px
+}
+/*this is for list styling*/
+#user-menu a{
+    width:140px;
+    text-align: center;
+    list-style: none;
+    float:left;
+    line-height: 30px;
+    color:black;
+    text-decoration: none;
+    margin-left: -30px;
+    
+}
+#user-menu a:hover{
+    font-size:20px;
+    transition:all .5s ease
+}
+
+/*navigation bar*/
+#navigation{
+    width:110%;
+    height:50px;
+    background: orange;
+    float:left;
+    margin-left: -10px;
+    /*box-shadow: 10px 14px 50px 2px orange*/
+    list-style: none
+    
+}
+
+nav{
+    width:1280px;
+    margin:15px;
+}
+nav a{
+    margin-left: 35px;
+    color:white;
+    text-decoration: none;
+    margin-bottom: 50px;
+    font-weight:bold;
+    
+}
+
+nav a:hover{
+    color:black;
+    transition:all .7s
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    position: relative
+ 
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*SLIDER*/
+#slider{
+     width:50%;
+    height:100px;
+    max-width:100%;
+    float:left;
+    /*margin-top: 50px;*/
+    /*bottom: 40px;*/
+    position: relative;
+    left:350px;
+    top:50px
+}
+.bx wrapper img{
+    margin-top:30px
+}
+/*category*/
+#heading-block{
+    width:100%;
+    height:auto;
+    float:left;
+    color:orange;
+    font-size:22px;
+    margin-top:-100px
+}
+#heading-block1{
+    width:80%;
+    height:auto;
+    float:left;
+    color:orange;
+    font-size:25px;
+    margin-top:-100px;
+    position: relative;
+    top:40px;
+    left:300px
+}
+/* name heading*/
+#heading-block2{
+    width:100%;
+    height:auto;
+    float:right;
+    color:orange;
+    font-size:22px;
+    margin-top:-100px;
+    position: relative;
+    right:-780px;
+    top: 30px
+}
+/* enclyopeida name */
+#heading-block3{
+    width:100%;
+    height:auto;
+    float:right;
+    color:orange;
+    font-size:22px;
+    margin-top:-100px;
+    position: relative;
+    right:-930px;
+    top: 30px
+}
+
+.btnspa{
+    border: none;
+    background-color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 290px;
+    left: -70px;
+    border-radius: 12px;
+
+}
+/*=====CATEGORY BOXES*/
+.catbox{
+    width:250px;
+    height:250px;
+    float:left;
+    overflow:hidden;
+    position:relative
+        
+}
+.catbox span{
+    width: 100%;
+    height:35px;
+    background:rgba(0,0,0,0.6);
+    line-height: 35px;
+    color: white;
+    display:block;
+    bottom:30px;
+    position: :absolute;
+    z-index: 999;
+    text-align: center
+}
+.catbox:hover span{
+    color:orange;
+}
+.catbox img{
+    max-width:100%;
+    transition:all .5s ease
+    
+}
+.catbox:hover img{
+    transform:scale(1.3,1.3);
+    transition:all .5s ease
+}
+#form{
+    position:relative;
+    top:50px;
+    left:300px
+}
+.clearfix{
+    position:relative;
+    top:50px;
+    left:100px;
+    color:orange;
+}
+.sendbtn{
+   border: none;
+    background-color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 12px;
+}
+.cancelbtn{
+    border: none;
+    background-color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 12px;
+}
+/*this is for products styling*/
+.prod-box{
+    width:235px;
+    height:300px;
+    overflow:hidden;
+    margin:0 18 30 0;
+    position:relative;
+    float:left;
+    border-style: solid;
+    border-color: black
+}
+.prod-box>img{
+    max-width: 100%
+}
+.prod-trans{
+    background-color: rgba(0,0,0,0.6);
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    position: absolute;
+    opacity:0;
+    transition:all .5s ease
+        
+}
+.prod-box:hover .prod-trans{
+    opacity: 1;
+    transition: all .5s ease
+    
+}
+.prod-feature{
+    text-align: center;
+    margin-top: -150px;
+    transition:all .5s ease
+}
+.prod-feature p{
+    color:orange;
+    font-family:verdana;
+}
+.prod-box:hover .prod-feature{
+    margin-top: 150px;
+    transition: all .5s ease
+}
+
+.prod-feature input{
+    width:150px;
+    height:35px;
+    font-size:17px
+}
+/*breed encylopedia*/
+.pr-box{
+    width:90%;
+    height:180px;
+    overflow:hidden;
+    margin:0 10 10 0;
+    position:relative;
+    float:left;
+    border-style: solid;
+    border-bottom-color: black
+}
+.pr-box>img{
+    max-width: 100%
+}
+.pr-trans{
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    position: absolute;
+    opacity:0;
+    transition:all .5s ease       
+}
+.pr-box:hover .pr-trans{
+    opacity: 1;
+    transition: all .5s ease
+    
+}
+
+.left5_1{
+    position: relative;
+    margin-top: -200px;
+    left: 300px;
+    transition:all .5s ease
+}
+
+.left5_1 p{
+    color:black;
+    font-family:verdana;
+    position:relative
+}
+.pr-box:hover .left5_1{
+    margin-top: 30px;
+    transition: all .5s ease
+}
+
+.left5_1 input{
+    width:150px;
+    height:35px;
+    font-size:17px
+}
+
+/* Dog ki Shaadi */
+.prod-feature1{
+    margin-top: -150px;
+    transition:all .5s ease;
+    text-align: center
+}
+.prod-feature1 input{
+    width:150px;
+    height:35px;
+    font-size:17px
+}
+.prod-box:hover .prod-feature1{
+    margin-top: 100px;
+    transition: all .5s ease
+}
+.prod-trans1{
+    background-color: rgba(0,0,0,0.4);
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    position: absolute;
+    opacity:0;
+    transition:all .5s ease
+        
+}
+.prod-box:hover .prod-trans1{
+    opacity: 1;
+    transition: all .5s ease
+}
+.shaadi{
+    border: none;
+    background-color: orange;
+    padding: 10px 20px;
+    font-size: 15px;
+    display:inline-block;
+    border-radius: 12px;
+}
+/*add my pet profile button*/
+.Profile{
+    border: none;
+    background-color: orange;
+    padding: 10px 20px;
+    font-size: 15px;
+    display:inline-block;
+    border-radius: 12px;
+    position: relative;
+    left:1050px;
+    top:-1px
+}
+
+/*footer*/
+#footer{
+    width:100%;
+    height:300px;
+    background: orange;
+    float:left
+}
+.column{
+    float:left;
+}
+/* spa partioning */
+.left {
+    width:25%;
+}
+.right{
+    width:50%;
+}
+/*adopt a pet*/
+.left1{
+    width:45%;
+}
+.right1{
+    width:55%;
+    text-align: center;
+    margin-top: -90px
+}
+/* Sell a pet */
+.left2{
+    width:40%;
+}
+.right2{
+    width: 50%;
+    border-color: lightgrey;
+    border-style: solid;
+    background-color: lightgoldenrodyellow;
+    margin-top: -30px
+}
+/* Login form partioning*/
+.left3{
+    width:40%;
+    height:50%;
+    background-color: beige;
+    margin-left: 150px;
+    text-align: center;
+    /*border-color: black;
+    border-right-color: beige
+    border-style: solid;*/
+}
+.right3{
+    width:40%;
+    height:60%;
+    background-color: aliceblue;
+    text-align: center;
+    /*border-color: black;
+    border-style: solid;*/
+    
+}
+/*name of dog*/
+.left4{
+    width: 60%;
+    height:40%
+}
+.left4_2{
+    width:60%;
+    height:40%
+}
+
+
+.right4{
+    width: 40%
+}
+/*encylopedia*/
+.left5{
+    width:70%
+}
+.right5{
+    width:30%;
+    float: right
+}
+
+.left5_1{
+    width:60%
+}
+#name{
+    border-style: solid;
+    border-color: black;
+    padding: 2px;
+    width: 10%;
+    height:20px;
+    text-align: center
+}
+/*registration button*/
+.registerbtn{
+    border: none;
+    background-color: orange;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 12px;
+    
+}
+/*login button*/
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Cart Button*/
+.add{
+    border: none;
+    background-color: violet;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left:-10px;
+    bottom: 10px
+}
+.send1{
+    border: none;
+    background-color: violet;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left:250px;
+    bottom: 10px;
+    margin-left: 20px
+}
